@@ -36,7 +36,7 @@
 	<script type="text/javascript" src="http://img.gaodun.cn/js/jquery-1.9.0.js"></script>
 	<script type="text/javascript">
 		;
-		(function($) {
+		(function($,win) {
 			$.fn.validatorForm = function(options) {
 
 				var settings = $.extend(true, $.fn.defaults, options);
@@ -74,6 +74,7 @@
 						}
 					}
 				};
+				win.strategys=strategys;
 
 				var Validator = function() {
 					this.cache = []; //保存验证规则
@@ -141,7 +142,7 @@
 					]
 				}
 			}
-		})(jQuery)
+		})(jQuery,window)
 	</script>
 	<script>
 		$(".form").validatorForm({
