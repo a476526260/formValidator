@@ -100,9 +100,7 @@
 				Validator.prototype.start = function() {
 					for(var i = 0; i < this.cache.length; i++) {
 						var validatorFunc = this.cache[i];
-
 						var msg = validatorFunc();
-
 						if(msg) {
 							return msg;
 						}
