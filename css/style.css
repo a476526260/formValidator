@@ -1,0 +1,19 @@
+.warp{ margin:0 auto; width:100%; min-width:1200px; max-width:1920px;}
+
+
+.form{ width: 600px; margin: 50px auto;}
+.input-control{ overflow: hidden; margin-bottom:20px ;}
+.input-control label{ float: left; width: 100px; height: 48px; line-height: 48px; font-size: 24px; color: #333; letter-spacing: 2px;}
+.input-control input{ float: left; width: 498px; height: 46px; border: 1px solid #999; font-size: 16px; color: #333333; text-indent: 1em;}
+.input-submit input{ display: block; width: 60%; height: 48px; margin: 0 auto; font-size: 24px;}
+
+
+
+
+
+
+
+
+
+
+
